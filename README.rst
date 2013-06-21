@@ -17,7 +17,7 @@ http://wiki.openoffice.org/wiki/Dictionaries
 By default the dictionaries are loaded from their usual location:
 
 - /usr/share/myspell/dicts
-- /usr/share/myspell/
+- /usr/share/myspell
 
 But you can provide the full path to the dictionary with --dictionary option
 (and the --lang option will be ignored).

@@ -28,7 +28,7 @@ LETTERS = (5, 6)
 NUMBERS = True
 
 # search for dictionaries
-DIC_PATH = ("/usr/share/myspell/dicts", "/usr/share/myspell/")
+DIC_PATH = ("/usr/share/myspell/dicts", "/usr/share/myspell")
 
 class Pwgen(object):
     """
