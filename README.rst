@@ -3,21 +3,21 @@ Easy to Remember Password Generator
 
 This tool was inspired by::
 
- - http://xkcd.com/936/
- - http://www.openwall.com/lists/oss-security/2012/01/19/24
- - https://www.memset.com/tools/password-generator/
+- http://xkcd.com/936/
+- http://www.openwall.com/lists/oss-security/2012/01/19/24
+- https://www.memset.com/tools/password-generator/
 
 So yes: yet another password generator. This time in Python and because
 I thought it would be fun to programm it (and indeed it was!).
 
 It requires a MySpell (or Hunspell) dictionary. More information::
 
- http://wiki.openoffice.org/wiki/Dictionaries
+http://wiki.openoffice.org/wiki/Dictionaries
 
 By default the dictionaries are loaded from their usual location::
 
- - /usr/share/myspell/dicts
- - /usr/share/myspell/
+- /usr/share/myspell/dicts
+- /usr/share/myspell/
 
 But you can provide the full path to the dictionary with --dictionary option
 (and the --lang option will be ignored).
