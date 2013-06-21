@@ -1,8 +1,7 @@
-===================================
 Easy to Remember Password Generator
 ===================================
 
-This tool was inspired by:
+This tool was inspired by::
 
  - http://xkcd.com/936/
  - http://www.openwall.com/lists/oss-security/2012/01/19/24
@@ -11,11 +10,11 @@ This tool was inspired by:
 So yes: yet another password generator. This time in Python and because
 I thought it would be fun to programm it (and indeed it was!).
 
-It requires a MySpell (or Hunspell) dictionary. More information:
+It requires a MySpell (or Hunspell) dictionary. More information::
 
  http://wiki.openoffice.org/wiki/Dictionaries
 
-By default the dictionaries are loaded from their usual location:
+By default the dictionaries are loaded from their usual location::
 
  - /usr/share/myspell/dicts
  - /usr/share/myspell/
@@ -52,14 +51,14 @@ Run erpwgen.py -h for help.
 
 
 License
-=======
+-------
 
 This is free software under the terms of MIT license (check COPYING file
 included in this package).
 
 
 Author
-======
+------
 
 - Juan J. Martinez <jjm@usebox.net>
 
