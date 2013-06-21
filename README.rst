@@ -1,7 +1,7 @@
 Easy to Remember Password Generator
 ===================================
 
-This tool was inspired by::
+This tool was inspired by:
 
 - http://xkcd.com/936/
 - http://www.openwall.com/lists/oss-security/2012/01/19/24
@@ -14,7 +14,7 @@ It requires a MySpell (or Hunspell) dictionary. More information::
 
 http://wiki.openoffice.org/wiki/Dictionaries
 
-By default the dictionaries are loaded from their usual location::
+By default the dictionaries are loaded from their usual location:
 
 - /usr/share/myspell/dicts
 - /usr/share/myspell/
