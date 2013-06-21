@@ -132,7 +132,7 @@ class Pwgen(object):
         while len(passwd) < self.l:
             random.shuffle(self.words)
             # we don't want duplicates
-            if self.words[0] not in passwd:
+            if self.words[0].title() not in passwd:
                 passwd.append(self.words[0].title())
 
         if self.numbers:
