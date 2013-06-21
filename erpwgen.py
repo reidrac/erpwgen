@@ -14,7 +14,7 @@ __description__ = "Generate easy to remember passwords"
 __author__ = "Juan J. Martinez"
 __author_email__ = "<jjm@usebox.net>"
 __license__ = "MIT"
-__url__ = "https://github.com/reidrac/erwgen"
+__url__ = "https://github.com/reidrac/erpwgen"
 
 LANG = os.environ.get("LANG", "en_US")
 if '.' in LANG:
@@ -42,7 +42,7 @@ class Pwgen(object):
 
     Example (assuming the British dictionary is installed):
 
-    >>> gen = erpwgen.Pwgen('en_GB')
+    >>> gen = Pwgen('en_GB')
     >>> gen.passwd()
     'WhiteHassleMinty2'
 
